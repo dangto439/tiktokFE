@@ -36,4 +36,7 @@ Dự án này là bản sao giao diện người dùng (frontend) của TikTok, 
    cd tiktok-clone-fe
    ```
 2. **Chạy dự án**
-   npm start
+
+```bash
+    npm start
+```
