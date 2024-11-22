@@ -4,6 +4,7 @@ const routes = {
     profile: '/@:nickname',
     upload: '/upload',
     search: '/search',
+    live: '/Live',
 };
 
 export default routes;

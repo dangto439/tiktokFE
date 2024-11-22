@@ -10,7 +10,6 @@ import AccountItem from '~/components/AccountItem';
 import { SearchIcon } from '~/components/Icons';
 import { useDebounce } from '~/hooks';
 import styles from './Search.module.scss';
-import axios from 'axios';
 
 const cx = classNames.bind(styles);
 
@@ -40,6 +39,7 @@ function Search() {
 
         fetchApi();
         console.log(searchResult);
+        // eslint-disable-next-line
     }, [debouncedValue]);
 
     const handleClear = () => {
